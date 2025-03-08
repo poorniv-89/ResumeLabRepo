@@ -1,0 +1,57 @@
+body{
+    background-color: rgba(0, 0, 0, 0.765);
+}
+#main-container
+{
+    background-color: rgba(13, 12, 12, 0.688);
+    margin: 2rem;
+}
+#box1{
+    /* border: 2px solid blue; */
+    display:flex;
+    flex-flow: row wrap;
+    flex-grow: 3;
+    color:white;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+.section1class{
+    margin:2rem 3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-content: center;
+    width: 100%vw;
+    height: 100%vh;
+    /* border-bottom: .5px solid rgba(255, 255, 255, 0.432); */
+}
+#bio-details{
+    display:flex;
+    flex-flow: row wrap;
+}
+#box1 h1{
+    margin-left: 1rem;
+    margin-top: 2rem;
+} 
+#box1 img{
+    width:15rem;
+}
+#box2{
+    display: flex;
+    margin-top: 1rem;
+    /* border: 2px solid blue; */
+    flex-grow: 1;
+}
+.profile-keys{
+    color:white;
+    text-align: right;
+}
+.profile-values{
+    color:rgba(255, 255, 255, 0.432);
+    margin-left: 2rem;
+    text-align: left;
+}
+#box3{
+    /* border: 1px solid rgba(255, 255, 255, 0.432); */
+    color:rgba(255, 255, 255, 0.432);
+    flex-flow: row wrap;
+    margin-bottom: 1rem;
+}
