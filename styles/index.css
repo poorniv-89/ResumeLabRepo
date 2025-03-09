@@ -2,6 +2,50 @@ body{
     background-color: rgba(0, 0, 0, 0.765);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+@media only screen and (max-width:600px){
+    #main-container{
+        display:flex;
+        flex-direction: column;
+        background-color: rgba(13, 12, 12, 0.688);
+    }
+    #section-2{
+        order: 3;
+    }
+    #box1 img{
+        display: none;
+    }
+    .profile-values p:nth-of-type(2)
+    {  
+        position: relative;
+        top:1.2rem;
+
+    }
+    .profile-values p:nth-of-type(3)
+    {  
+        position: relative;
+        top:1.2rem;
+
+    }
+    .profile-values p:nth-of-type(4)
+    {  
+        position: relative;
+        top:1.2rem;
+
+    }
+    .profile-values p:nth-of-type(5)
+    {  
+        position: relative;
+        top:1.2rem;
+
+    }
+    .profile-values p:nth-of-type(6)
+    {  
+        position: relative;
+        top:1.2rem;
+
+    }
+
+}
 #main-container
 {
     background-color: rgba(13, 12, 12, 0.688);
